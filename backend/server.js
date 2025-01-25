@@ -3,8 +3,8 @@ const protoLoader = require("@grpc/proto-loader")
 const mongoose = require("mongoose")
 
 // Connect to MongoDB
-mongoose.connect("mongodb://localhost:27017/questions_db", { useNewUrlParser: true, useUnifiedTopology: true })
-
+mongoose.connect("mongodb+srv://tanishsingal245:HAPoko1WV9etGKXp@cluster0.f6yyg.mongodb.net/questions_db", { useNewUrlParser: true, useUnifiedTopology: true })
+//HAPoko1WV9etGKXp
 // Define Question schema
 // const questionSchema = new mongoose.Schema({
 //   type: String,
